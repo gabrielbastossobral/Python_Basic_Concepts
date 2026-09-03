@@ -10,7 +10,7 @@ ft_tuple = ft_tuple[:1] + ("Brazil!",)
 ft_set.remove("tutu!")
 ft_set.add("São Paulo!")
 
-ft_dict.update({"Hello": "42SP!"})
+ft_dict["Hello"] = "42SP!"
 
 
 print(ft_list)
