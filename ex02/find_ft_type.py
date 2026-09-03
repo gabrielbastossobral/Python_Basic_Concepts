@@ -1,15 +1,15 @@
 from typing import Any
 
 def all_thing_is_obj(object: Any) -> int:
-    if isinstance(object, list):
+    if type(object) is list:
         print(f"List : {type(object)}")
-    elif isinstance(object, tuple):
+    elif type(object) is tuple:
         print(f"Tuple : {type(object)}")
-    elif isinstance(object, set):
+    elif type(object) is set:
         print(f"Set : {type(object)}")
-    elif isinstance(object, dict):
+    elif type(object) is dict:
         print(f"Dict : {type(object)}")
-    elif isinstance(object, str):
+    elif type(object) is str:
         print(f"{object} is in the kitchen : {type(object)}")
     else:
         print("Type not found")
